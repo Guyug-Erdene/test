@@ -1,0 +1,229 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html {scroll-behavior: smooth;}
+/* Body Background */
+body {
+    background-color: rgb(140, 226, 255); 
+    color: #333;  
+    background: radial-gradient(circle, violet 5.5%, transparent 25%) repeat;
+    background-size: 20px 20px;
+}
+/* Photos */
+ img {  
+    width: 450px; 
+    height: 250px;
+}
+/* Header */
+header {
+    background-color: #004d99;  
+    padding: 30px 0;
+    color: white; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Section Styles */
+#home p{
+    border: 1px solid #777777; 
+    padding: 10px;
+    margin: 10px 0; 
+section {
+    padding: 40px 0;
+}}
+#about p{
+    border: 1px solid #777777; 
+    padding: 10px; 
+    margin: 10px 0; 
+section {
+    padding: 40px 0;
+}}
+#resources p{
+    border: 1px solid #777777; 
+    padding: 10px;
+    margin: 10px 0; 
+section {
+    padding: 40px 0;
+}}
+#support p{
+    border: 1px solid #777777; 
+    padding: 10px;
+    margin: 10px 0; 
+section {
+    padding: 40px 0;
+}}
+#get-involved p {
+    border: 1px solid #777777;
+    padding: 10px;
+    margin: 10px 0; 
+section {
+    padding: 40px 0;
+}}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* News workings */
+#news h2 {
+   text-align: center;
+}
+
+.news {
+    max-width: 300px;
+    min-width: 250px;
+    color: #292929;
+    border: 1px solid #9c9c9c; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(221, 198, 198);
+}
+
+.news:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.news h3 {
+    margin: 20px 0;
+    font-size: 1.3em;
+    color: #141414;
+}
+
+#news > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #004d99; 
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Responsive Image Styles */
+.responsive {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #004d99;
+    outline: none;
+}
+
+form button {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/*Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
