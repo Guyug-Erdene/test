@@ -63,7 +63,10 @@ nav ul li a:hover {
     margin: 150px auto;
     text-align: center;
 }
-
+/*Home*/
+.Home h2{
+    
+}
 /* News workings */
 #news h2 {
    text-align: center;
