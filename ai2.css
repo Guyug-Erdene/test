@@ -11,8 +11,9 @@ html {scroll-behavior: smooth;}
 body {
     background-color: rgb(140, 226, 255); 
     color: #333;  
-    background: radial-gradient(circle, violet 5.5%, transparent 25%) repeat;
-    background-size: 20px 20px;
+    background: rgb(62,176,255);
+background: linear-gradient(180deg, rgba(62,176,255,1) 22%, rgba(203,235,143,1) 78%);
+  
 }
 /* Photos */
  img {  
@@ -56,49 +57,13 @@ nav ul li a:hover {
     color: #f0f0f0;
 }
 
-/* Section Styles */
-#home p{
-    border: 1px solid #777777; 
-    padding: 10px;
-    margin: 10px 0; 
-section {
-    padding: 40px 0;
-}}
-#about p{
-    border: 1px solid #777777; 
-    padding: 10px; 
-    margin: 10px 0; 
-section {
-    padding: 40px 0;
-}}
-#resources p{
-    border: 1px solid #777777; 
-    padding: 10px;
-    margin: 10px 0; 
-section {
-    padding: 40px 0;
-}}
-#support p{
-    border: 1px solid #777777; 
-    padding: 10px;
-    margin: 10px 0; 
-section {
-    padding: 40px 0;
-}}
-#get-involved p {
-    border: 1px solid #777777;
-    padding: 10px;
-    margin: 10px 0; 
-section {
-    padding: 40px 0;
-}}
-
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 150px auto;
     text-align: center;
 }
+
 /* News workings */
 #news h2 {
    text-align: center;
@@ -214,6 +179,19 @@ footer {
 
 footer p {
     font-size: 1em;
+}
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.support-container .supporting p {
+  line-height: 1.2;
+  font-size: large;
+}
+.support-container .supporting h3 {
+    text-transform: uppercase;
 }
 
 /*Responsive Design */
