@@ -180,7 +180,7 @@ footer {
 footer p {
     font-size: 1em;
 }
-
+/*Support*/
 .support-container {
     display: flex;
     flex-direction: column;
@@ -191,6 +191,19 @@ footer p {
   font-size: large;
 }
 .support-container .supporting h3 {
+    text-transform: uppercase;
+}
+/*involve*/
+.involve-container{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.involve-container .involving p{
+    line-height: 1.2;
+    font-size: large;
+}
+.involve-container .involving h3{
     text-transform: uppercase;
 }
 
