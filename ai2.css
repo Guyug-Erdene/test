@@ -12,7 +12,7 @@ body {
     background-color: rgb(140, 226, 255); 
     color: #333;  
     background: rgb(62,176,255);
-background: linear-gradient(180deg, rgba(62,176,255,1) 22%, rgba(203,235,143,1) 78%);
+background: linear-gradient(180deg, rgb(128, 197, 247) 22%, rgb(211, 235, 166) 78%);
   
 }
 /* Photos */
@@ -64,9 +64,14 @@ nav ul li a:hover {
     text-align: center;
 }
 /*Home*/
-.Home h2{
-    
+.Home p{
+    text-align: center;
+    margin: 10px;
 }
+/*About*/
+.About p{
+    text-align: center;
+    text-size-adjust:30px;}
 /* News workings */
 #news h2 {
    text-align: center;
