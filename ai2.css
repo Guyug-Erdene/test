@@ -67,11 +67,20 @@ nav ul li a:hover {
 .Home p{
     text-align: center;
     margin: 10px;
+    font-size: larger;
+    color: rgb(36, 35, 35);
 }
 /*About*/
 .About p{
     text-align: center;
     font-size: larger;
+    color: rgb(36, 35, 35);
+}
+/*Resources*/
+.Resources p{
+    text-align: center;
+    font-size: larger;
+    color: rgb(36, 35, 35);
 }
 /* News workings */
 #news h2 {
