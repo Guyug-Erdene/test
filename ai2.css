@@ -71,6 +71,7 @@ nav ul li a:hover {
 /*About*/
 .About p{
     text-align: center;
+    font-size: larger;
 }
 /* News workings */
 #news h2 {
